@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+      <div class="container">
+        <p> Nhập số </p>
+        <input id="number" type="text" class="form-control" >
+        <br>
+        <button onclick="themSo()" id="btnThemso" class="btn btn-success">Thêm số</button>
+        <div class="card-footer">
+            <div id="listNumber"></div>          
+        </div>
+        <br>
+        <br>
+
+        <button onclick="tongDuong()" id="btnTongDuong" class="btn btn-success">Tổng các số dương trong mảng</button>
+        <label id="lbTongDuong"></label> <br>
+
+        <button onclick="demDuong()" id="btnDemDuong" class="btn btn-success">Đếm số dương trong mảng</button>
+        <label id="lbDemDuong"></label> <br>
+
+        <button onclick="soNhoNhat()" id="btnSoNhoNhat" class="btn btn-success">Số nhỏ nhất trong mảng</button>
+        <label id="lbSoNhoNhat"></label> <br>
+
+        <button onclick="duongMin()" id="btnDuongMin" class="btn btn-success">Số dương nhỏ nhất trong mảng</button>
+        <label id="lbDuongMin"></label><br>
+
+        <button onclick="soChanCuoi()" id="btnSoChanCuoi" class="btn btn-success">Số chẵn cuối cùng trong mảng</button>
+        <label id="lbSoChanCuoi"></label><br>
+
+        <input id="vitri1" type="text" placeholder="vị trí 1">
+        <input id="vitri2" type="text"placeholder="vị trí 2">
+        <button onclick="doiCho()" id="btnDoiCho" class="btn btn-success">Đổi chỗ</button>
+        <label id="lbDoiCho"></label><br>
+
+        <button onclick="sapXepTang()" id="btnSapXepTang" class="btn btn-success">Sắp xếp theo thứ tự tăng dần</button>
+        <label id="lbSapXepTang"></label><br>
+
+        <button onclick="nguyenToDau()" id="btnNguyenToDau" class="btn btn-success">Số nguyên tố đầu tiên trong mảng</button>
+        <label id="lbNguyenToDau"></label><br>
+
+        <button onclick="soSanh()" id="" class="btn btn-success">So sánh số lượng số dương và âm trong mảng</button>
+        <label id="lbSoSanhAmDuong"></label><br>
+
+
+        
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
